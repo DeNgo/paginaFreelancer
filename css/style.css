@@ -7,6 +7,10 @@
 }
 html{
     font-size: 62.5%;
+    box-sizing: border-box;/*Codigo para que el padding no afecte al tamaño*/
+}
+*, *:before, *:after {/*Codigo para que el padding no afecte al tamaño*/
+    box-sizing: inherit;
 }
 body{
     font-size: 16px;/*1rem = 10px*/
@@ -52,4 +56,12 @@ body{
         display: block;
         text-align: center;
     }
+}
+
+.hero{
+    background-image: url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    padding: 20px;
 }
