@@ -119,3 +119,14 @@ body{
         text-align: center;
     }
 }
+
+.servicios{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media (max-width: 750px){
+    .servicios{
+        display: block;
+    }
+}
