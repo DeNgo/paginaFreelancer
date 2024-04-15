@@ -15,6 +15,7 @@ html{
 body{
     font-size: 16px;/*1rem = 10px*/
     font-family: "Krub", sans-serif;
+    background-image: linear-gradient(to top, #dfe9f3 20%, var(--blanco) 100%);
 }
 .titulo{
     text-align: center;
