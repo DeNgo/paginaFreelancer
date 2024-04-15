@@ -59,12 +59,23 @@ body{
     }
 }
 
+
+.sombra{/*css matic*/
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(105,105,105,0.45);
+    -moz-box-shadow: 0px 5px 15px 0px rgba(105,105,105,0.45);
+    box-shadow: 0px 5px 15px 0px rgba(105,105,105,0.45);
+    background-color: var(--blanco);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
 .hero{
     background-image: url(../img/hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 450px;
     position: relative;
+    margin-bottom: 2rem;
 }
 
 .contenido-hero{
