@@ -71,4 +71,20 @@ body{
     background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
     height: 100%;
+    /*CODIGO PARA ALINEAR VERTICA Y HORIZONTAL*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*FIN*/
+}
+
+.contenido-hero  h2,
+.contenido-hero p{
+    color: var(--blanco);
+}
+
+.ubicacion{
+    display: flex;
+    align-items: flex-end;
 }
