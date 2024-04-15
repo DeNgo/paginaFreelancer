@@ -88,3 +88,22 @@ body{
     display: flex;
     align-items: flex-end;
 }
+
+.boton{
+    background-color: var(--secundario);
+    color: var(--blanco);
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 3rem;
+    padding: 1rem 3rem;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+@media (max-width: 750px){
+    .boton{
+        width: 90%;
+        text-align: center;
+    }
+}
